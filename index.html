@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> LIVE CODING </title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <label> <i class='bx bxl-html5'></i> HTML5 </label>
+            <textarea name="" id="html-code" onkeyup="run()"></textarea>
+
+            <label> <i class='bx bxl-css3'></i> CSS3 </label>
+            <textarea name="" id="css-code" onkeyup="run()" ></textarea>
+            
+            <label> <i class='bx bxl-javascript'></i> JAVASCRIPT </label>
+            <textarea name="" id="js-code" onkeyup="run()"></textarea> 
+        </div>
+
+        <div class="right">
+            <label> <i class='bx bx-play'></i> OUTPUT </label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+
+
+
+    <!-- JAVASCRIPT -->
+     <script src="./assets/js/main.js"></script>
+</body>
+</html>
